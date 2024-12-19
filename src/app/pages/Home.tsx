@@ -1,14 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import BiosLoader from "../components/BiosLoader"; // Importando o componente BiosLoader
+import BiosLoader from "../components/BiosLoader"; 
 
 const Home = () => {
   const [showStartScreen, setShowStartScreen] = useState(false);
 
-  // Função chamada após a conclusão da sequência de BIOS
+
   const handleBiosCompletion = () => {
-    setShowStartScreen(true); // Mostra a tela de "start" após a BIOS carregar
+    setShowStartScreen(true); 
   };
 
   if (showStartScreen) {
@@ -21,7 +21,6 @@ const Home = () => {
           </p>
           <button
             className="border-4 border-white py-2 px-4 hover:bg-white hover:text-black transition"
-            onClick={() => alert("Página carregada!")}
           >
             START
           </button>
