@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['"Fira Code"', "monospace"], // Fonte estilo terminal
+        mono: ['"Fira Code"', "monospace"], 
       },
       colors: {
-        retroGreen: "#00FF00", // Verde estilo terminal
-        retroBackground: "#000000", // Fundo preto
+        retroGreen: "#00FF00", 
+        retroBackground: "#000000", 
       },
     },
   },
