@@ -1,9 +1,9 @@
-import Home from "../app/pages/Home"; // ou o caminho correto onde você definiu o Home
+import Start from "./pages/Start";
 
 export default function Page() {
   return (
     <div>
-      <Home />
+      <Start />
     </div>
   );
 }
