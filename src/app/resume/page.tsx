@@ -1,24 +1,91 @@
-// pages/resume.tsx
+"use client";
 
-import React from "react";
+import React, { useState } from "react";
+import { JSX } from "react/jsx-runtime";
 
-const Resume = () => {
+// Importar os componentes das seções
+import Home from '../pages/Home'
+import About from '../pages/About';
+import Experience from '../pages/Experience';
+import Projects from '../pages/Projects';
+import Contact from '../pages/Contact';
+
+const Navigation = ({ setActiveSection }: { setActiveSection: (section: string) => void }) => (
+  <nav className="w-1/7 p-4 text-left border-r border-gray-300">
+    <h1 className="font-bold text-2xl text-gray-800 mb-4">Lucas Gheno</h1>
+    <h2 className="text-gray-700 mb-8">Portfólio Website</h2>
+    <ul className="space-y-7">
+      <li className="mt-64">
+        <button
+          onClick={() => setActiveSection("home")}
+          className="text-blue-600 hover:underline"
+        >
+          ÍNICIO
+        </button>
+      </li>
+      <li>
+        <button
+          onClick={() => setActiveSection("about")}
+          className="text-blue-600 hover:underline"
+        >
+          SOBRE
+        </button>
+      </li>
+      <li>
+        <button
+          onClick={() => setActiveSection("experience")}
+          className="text-blue-600 hover:underline"
+        >
+          EXPERIÊNCIAS
+        </button>
+      </li>
+      <li>
+        <button
+          onClick={() => setActiveSection("projects")}
+          className="text-blue-600 hover:underline"
+        >
+          PROJETOS
+        </button>
+      </li>
+      <li>
+        <button
+          onClick={() => setActiveSection("contact")}
+          className="text-blue-600 hover:underline"
+        >
+          CONTATO
+        </button>
+      </li>
+    </ul>
+  </nav>
+);
+
+const OldSchoolLinuxStyle: React.FC = () => {
+  const [activeSection, setActiveSection] = useState<string>("home");
+
+  // Função para renderizar a seção com base no estado
+  const renderSection = () => {
+    switch (activeSection) {
+      case "home":
+        return <Home />;
+      case "about":
+        return <About />;
+      case "experience":
+        return <Experience />;
+      case "projects":
+        return <Projects />;
+      case "contact":
+        return <Contact />;
+      default:
+        return <Home />;
+    }
+  };
+
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-white text-black p-6">
-      <div className="border-4 border-black p-8 text-center w-11/12 max-w-md">
-        <h1 className="text-3xl font-bold mb-6">Lucas Carmona Gheno</h1>
-        <h2 className="text-xl mb-4">Desenvolvedor Front-End</h2>
-        <p className="text-lg mb-6">
-          Sou um desenvolvedor apaixonado por tecnologia, com foco em criar interfaces web dinâmicas e responsivas. Com experiência em{" "}
-          <strong>React</strong>, <strong>TypeScript</strong> e <strong>Next.js</strong>, busco sempre aprimorar minhas habilidades em frameworks modernos e boas práticas de desenvolvimento. Tenho uma forte base em{" "}
-          <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>  
-        </p>
-        <p className="text-lg">
-          Estou sempre em busca de novos desafios para expandir meus conhecimentos e contribuir para a criação de soluções inovadoras.
-        </p>
-      </div>
+    <div className="flex min-h-screen bg-gray-100 text-gray-800 font-mono">
+      <Navigation setActiveSection={setActiveSection} />
+      <div className="flex-1 p-4">{renderSection()}</div>
     </div>
   );
 };
 
-export default Resume;
+export default OldSchoolLinuxStyle;
