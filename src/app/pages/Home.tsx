@@ -1,14 +1,20 @@
+// home.tsx
 "use client";
 
 import { useState } from "react";
-import BiosLoader from "../components/BiosLoader"; 
+import { useRouter } from "next/navigation"; 
+import BiosLoader from "../components/BiosLoader";
 
 const Home = () => {
   const [showStartScreen, setShowStartScreen] = useState(false);
-
+  const router = useRouter(); 
 
   const handleBiosCompletion = () => {
-    setShowStartScreen(true); 
+    setShowStartScreen(true);
+  };
+
+  const handleStartClick = () => {
+    router.push("/resume"); 
   };
 
   if (showStartScreen) {
@@ -20,6 +26,7 @@ const Home = () => {
             Click start to begin<span className="blinking-cursor">_</span>
           </p>
           <button
+            onClick={handleStartClick} 
             className="border-4 border-white py-2 px-4 hover:bg-white hover:text-black transition"
           >
             START
