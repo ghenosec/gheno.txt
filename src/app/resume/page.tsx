@@ -8,7 +8,6 @@ import Home from '../pages/Home'
 import About from '../pages/About';
 import Experience from '../pages/Experience';
 import Projects from '../pages/Projects';
-import Contact from '../pages/Contact';
 
 const Navigation = ({ setActiveSection }: { setActiveSection: (section: string) => void }) => (
   <nav className="w-1/7 p-4 text-left border-r border-gray-300">
@@ -47,14 +46,6 @@ const Navigation = ({ setActiveSection }: { setActiveSection: (section: string) 
           PROJETOS
         </button>
       </li>
-      <li>
-        <button
-          onClick={() => setActiveSection("contact")}
-          className="text-blue-600 hover:underline"
-        >
-          CONTATO
-        </button>
-      </li>
     </ul>
   </nav>
 );
@@ -73,8 +64,6 @@ const OldSchoolLinuxStyle: React.FC = () => {
         return <Experience />;
       case "projects":
         return <Projects />;
-      case "contact":
-        return <Contact />;
       default:
         return <Home />;
     }
