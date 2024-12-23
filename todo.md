@@ -5,5 +5,5 @@ Modificações e criações
 [x] Criar About com uma foto minha, linkedin, github, email
 [] Criar projetos
 [] Colocar certificados no about.tsx
-[] Trocar ico
-[] Bloquear o scroll na barra sidebar
+[x] Trocar ico
+[x] Bloquear o scroll na barra sidebar
