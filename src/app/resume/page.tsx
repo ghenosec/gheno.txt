@@ -9,7 +9,7 @@ import Experience from '../pages/Experience';
 import Projects from '../pages/Projects';
 
 const Navigation = ({ setActiveSection }: { setActiveSection: (section: string) => void }) => (
-  <nav className="w-1/7 p-4 text-left border-r border-gray-300">
+  <nav className="w-1/7 p-4 text-left border-r border-gray-300 sticky top-0 h-screen">
     <h1 className="font-bold text-2xl text-gray-800 mb-4 mt-4">Lucas Gheno</h1>
     <h2 className="text-gray-700 mb-8">Portfólio Website</h2>
     <ul className="space-y-7">
