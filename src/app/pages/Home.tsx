@@ -22,7 +22,7 @@ const ResumePage: React.FC = () => {
         <code>
         {`Esse projeto está sendo desenvolvido para aprendizado.
 É possível encontrar erros, caso encontre, por favor, me avise.
-A ideia é testar novos conceitos, ideias e aprender, então não espere um código perfeito.`}
+A ideia é testar novos conceitos, ideias e aprender, então não garanto um código perfeito.`}
         </code>
       </pre>
 
