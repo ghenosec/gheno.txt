@@ -72,7 +72,7 @@ const BiosLoader = ({ onComplete }: { onComplete: () => void }) => {
             }, 500); 
           }, 500); 
         }
-      }, 200 * index); 
+      }, 150 * index); 
     });
   }, []);
 
@@ -89,9 +89,9 @@ const BiosLoader = ({ onComplete }: { onComplete: () => void }) => {
       >
         {bootText.map((line, index) => (
           <p key={index} className="leading-relaxed">
-            <span className="text-white">[</span>
+            <span className="text-white">[ </span>
             <span className="text-retroGreen">✓</span>
-            <span className="text-white">] </span>
+            <span className="text-white"> ] </span>
             {line.slice(0)} 
           </p>
         ))}
