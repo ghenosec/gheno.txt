@@ -41,7 +41,7 @@ const About = () => {
               Sou um desenvolvedor de software e estou atualmente cursando
               Engenharia de Software, com data de formação prevista para 2025.
               Tenho contato e formações com Tecnologias desde meus 7 anos,
-              idade que eu tive meu primeiro computador, diante de 3 anos para cá,
+              idade que tive meu primeiro computador, diante de 3 anos para cá,
               venho me aprofundando em desenvolvimento de
               software, durante esse período, tive a oportunidade de trabalhar em
               uma gama de projetos que me ajudaram a desenvolver e aprimorar
@@ -80,7 +80,7 @@ const About = () => {
                 return (
                   <div
                     key={skill}
-                    className="bg-retroGreen p-3 py-1 rounded-lg text-white"
+                    className="bg-green-500 p-3 py-1 rounded-lg text-white"
                   >
                     {skill}
                   </div>
