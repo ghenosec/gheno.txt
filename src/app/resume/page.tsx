@@ -16,7 +16,7 @@ const Navigation = ({ setActiveSection }: { setActiveSection: (section: string) 
       <li className="mt-64">
         <button
           onClick={() => setActiveSection("home")}
-          className="text-green-500 hover:text-green-700"
+          className="text-green-500 hover:text-green-700 font-semibold"
         >
           ÍNICIO
         </button>
@@ -24,7 +24,7 @@ const Navigation = ({ setActiveSection }: { setActiveSection: (section: string) 
       <li>
         <button
           onClick={() => setActiveSection("about")}
-          className="text-green-500 hover:text-green-700"
+          className="text-green-500 hover:text-green-700 font-semibold"
         >
           SOBRE
         </button>
@@ -32,7 +32,7 @@ const Navigation = ({ setActiveSection }: { setActiveSection: (section: string) 
       <li>
         <button
           onClick={() => setActiveSection("experience")}
-          className="text-green-500 hover:text-green-700"
+          className="text-green-500 hover:text-green-700 font-semibold"
         >
           EXPERIÊNCIAS
         </button>
@@ -40,7 +40,7 @@ const Navigation = ({ setActiveSection }: { setActiveSection: (section: string) 
       <li>
         <button
           onClick={() => setActiveSection("projects")}
-          className="text-green-500 hover:text-green-700"
+          className="text-green-500 hover:text-green-700 font-semibold"
         >
           PROJETOS
         </button>
