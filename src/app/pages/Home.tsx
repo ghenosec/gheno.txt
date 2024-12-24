@@ -29,8 +29,8 @@ A ideia é testar novos conceitos, ideias e aprender, então não garanto um có
       <h1 className="text-4xl font-bold mt-8 mb-4">Descrição</h1>
       <ul className="list-disc pl-8">
         <li>Esse projeto imita o start de um Sistema Operacional, aonde após "ligar", automaticamente abre um .txt que mostra algumas informações que englobam a minha pessoa.</li>
-        <li>A parte inicial do projeto é com base em <a href="https://svelte.dev" className="text-retroGreen">Svelte</a> mas, convertido para <a href="https://www.typescriptlang.org/" className="text-retroGreen">TypeScript</a>, pois é aonde tenho mais familiaridade.</li>
-        <li>A base do projeto é feita com <a href="https://nextjs.org/" className="text-retroGreen">Next</a> o que me permite testar vários frameworks além de ter suporte nativo para TypeScript e futuras integrações simlpificadas com APIs.</li>
+        <li>A parte inicial do projeto é com base em <a href="https://svelte.dev" className="text-green-500">Svelte</a> mas, convertido para <a href="https://www.typescriptlang.org/" className="text-green-500">TypeScript</a>, pois é aonde tenho mais familiaridade.</li>
+        <li>A base do projeto é feita com <a href="https://nextjs.org/" className="text-green-500">Next</a> o que me permite testar vários frameworks além de ter suporte nativo para TypeScript e futuras integrações simlpificadas com APIs.</li>
       </ul>
 
       <h1 className="text-4xl font-bold mt-8 mb-4">Licença</h1>

@@ -95,7 +95,7 @@ const ExperiencePage: React.FC = () => {
                     href={tech.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 hover:text-blue-700 transition-colors duration-300"
+                    className="text-green-500 hover:text-green-700 transition-colors duration-300"
                   >
                     {tech.name}
                   </a>
