@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GH-OS",
-  description: "Portfolio System for GH-OS",
+  title: "GH.txt",
+  description: "Portfolio System for GH.txt",
 };
 
 export default function RootLayout({
