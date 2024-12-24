@@ -7,3 +7,6 @@ Modificações e criações
 [] Colocar certificados no about.tsx
 [x] Trocar ico
 [x] Bloquear o scroll na barra sidebar
+[x] Corrigir textos
+[x] Mudar a paleta do verde
+[x] Removido Underline
