@@ -10,3 +10,4 @@ Modificações e criações
 [x] Corrigir textos
 [x] Mudar a paleta do verde
 [x] Removido Underline
+[] Adicionar esmaecer na sidebar
