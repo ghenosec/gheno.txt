@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const skills = [
   "React",
@@ -12,13 +12,24 @@ const skills = [
   "Docker",
   "Git",
   "Linux",
-]
+];
+
 
 const About = () => {
+  const [isFadingIn, setIsFadingIn] = useState(false);
+
+  useEffect(() => {
+    setIsFadingIn(true);
+  }, []);
+
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold mb-6">Sobre Mim</h1>
-      <div className="flex flex-col md:flex-row gap-6 items-start border rounded-lg shadow-md p-6 relative">
+      <div
+        className={`flex flex-col md:flex-row gap-6 items-start border rounded-lg shadow-md p-6 relative transition-opacity duration-1000 ${
+          isFadingIn ? "opacity-100" : "opacity-0"
+        }`}
+      >
         <div className="flex-shrink-0 w-64">
           <img
             src="me.jpeg"

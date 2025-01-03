@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const ProjectsPage: React.FC = () => {
+  const [isFadingIn, setIsFadingIn] = useState(false);
+
+  useEffect(() => {
+    setIsFadingIn(true);
+  }, []);
+
   const projects = [
     {
       title: "GYM Strong",
@@ -74,7 +80,9 @@ const ProjectsPage: React.FC = () => {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="flex flex-col gap-4 p-4 border rounded-lg shadow-md mb-6"
+          className={`flex flex-col gap-4 p-4 border rounded-lg shadow-md mb-6 transition-opacity duration-1000 ${
+            isFadingIn ? "opacity-100" : "opacity-0"
+          }`}
         >
           <header>
             <h2 className="text-2xl font-bold">

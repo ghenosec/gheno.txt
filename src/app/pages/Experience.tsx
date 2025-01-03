@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const ExperiencePage: React.FC = () => {
+  const [isFadingIn, setIsFadingIn] = useState(false);
+
+  useEffect(() => {
+    setIsFadingIn(true);
+  }, []);
+
   const experiences = [
     {
       title: "Folhastech",
@@ -62,8 +68,10 @@ const ExperiencePage: React.FC = () => {
       <h1 className="text-3xl font-bold mb-6">Minhas Experiências</h1>
       {experiences.map((experience, index) => (
         <div
-          key={index}
-          className="flex flex-col gap-4 p-4 border rounded-lg shadow-md mb-6"
+        key={index}
+        className={`flex flex-col gap-4 p-4 border rounded-lg shadow-md mb-6 transition-opacity duration-1000 ${
+          isFadingIn ? "opacity-100" : "opacity-0"
+        }`}
         >
           <header>
             <h2 className="text-2xl font-bold">{experience.title}</h2>
