@@ -1,40 +1,23 @@
-**EM CONSTRUÇÃO**
+<p align="center">
+  <a href="https://ghenotxt.vercel.app/"><img src="https://raw.githubusercontent.com/ghenosec/gheno.txt/refs/heads/master/public/pc-art.png" alt="Logo" height=355></a>
+</p>
+<h1 align="center">Gheno.txt</h1>
+
+## Motivação
+
+Precisava de um site para ser meu currículo e portfólio, depois de observar vários websites e portfólios, encontrei um seguindo o estilo de sistemas operacionais antigos e gostei demais da ideia, me inspirei e acabei criando o meu. Ainda não está 100% como eu gostaria, mas estou trabalhando nisso.
 
 
+## Descrição
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- Esse projeto imita o start de um Sistema Operacional, aonde após "ligar", automaticamente abre um .txt que mostra algumas informaçõesque englobam a minha pessoa.
+- A parte inicial do projeto é com base em [Svelte](https://svelte.dev) mas, convertido para [TypeScript](https://www.typescriptlang.org/) pois é aonde tenho mais familiaridade.
+- A base do projeto é feita com [Next](https://nextjs.org/) o que me permite testar vários frameworks além de ter suporte nativo para TypeScript e futuras integrações simplificadas com APIs.
 
-## Getting Started
+## Roteiro
 
-First, run the development server:
+A cada parte do projeto criada, idéias novas surgiam em minha mente, assim sendo criado o [todo](https://github.com/ghenosec/gheno.txt/blob/master/todo.md) para correções que eu deveria fazer e ideias novas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Licença
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob licença MIT, fique à vontade para usá-lo como quiser.
