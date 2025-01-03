@@ -14,6 +14,26 @@ const skills = [
   "Linux",
 ];
 
+const certificates = [
+  {
+    title: "Analista de Requisitos",
+    certificateType: "Análise de requisitos de software",
+    description:
+      "Certificado de conclusão das matérias de Análise de Requisitos de Software, abordando técnicas e práticas para levantamento e documentação de requisitos.",
+    date: "Fevereiro 2024",
+    issuer: "Centro Universitário FAG",
+    link: "https://drive.google.com/file/d/1v0V-00f2YMW7q2pggRAkfOkzHt-J3Gyk/view?usp=sharing",
+  },
+  {
+    title: "Desenvolvedor de Software",
+    certificateType: "Desenvolvimento de Software ",
+    description:
+      "Certificado de conclusão das matérias de Desenvolvimento de Software, abordando técnicas e conhecimentos para um bom software.",
+    date: "Fevereiro 2024",
+    issuer: "Centro Universitário FAG",
+    link: "https://drive.google.com/file/d/1hTc6-1uozZ5xfTJWoWWwW4HvsOWzaRJ_/view?usp=sharing",
+  },
+];
 
 const About = () => {
   const [isFadingIn, setIsFadingIn] = useState(false);
@@ -25,11 +45,7 @@ const About = () => {
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold mb-6">Sobre Mim</h1>
-      <div
-        className={`flex flex-col md:flex-row gap-6 items-start border rounded-lg shadow-md p-6 relative transition-opacity duration-1000 ${
-          isFadingIn ? "opacity-100" : "opacity-0"
-        }`}
-      >
+      <div className="flex flex-col md:flex-row gap-6 items-start border rounded-lg shadow-md p-6 relative">
         <div className="flex-shrink-0 w-64">
           <img
             src="me.jpeg"
@@ -100,6 +116,42 @@ const About = () => {
             </div>
           </div>
         </div>
+      </div>
+      
+      <div
+        className={`flex flex-col gap-6 mt-6 ${
+          isFadingIn ? "opacity-100" : "opacity-0"
+        } transition-opacity duration-1000`}
+      >
+        {certificates.map((certificate, index) => (
+          <div
+            key={index}
+            className="flex flex-col gap-4 p-6 border rounded-lg shadow-md transition-opacity duration-1000"
+          >
+            <header>
+              <h3 className="text-2xl font-bold">{certificate.title}</h3>
+              <p className="text-sm text-gray-400">{certificate.certificateType}</p>
+            </header>
+            <section>
+              <h4 className="text-lg font-semibold">Descrição:</h4>
+              <p>{certificate.description}</p>
+            </section>
+            <section>
+              <h4 className="text-lg font-semibold">Data:</h4>
+              <p>{certificate.date}</p>
+            </section>
+            <section>
+              <a
+                href={certificate.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-500 hover:text-green-800 transition-colors duration-300"
+              >
+                Ver Certificado
+              </a>
+            </section>
+          </div>
+        ))}
       </div>
     </div>
   );
