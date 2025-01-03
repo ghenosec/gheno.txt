@@ -4,7 +4,7 @@ Modificações e criações
 [x] Adicionar Logos
 [x] Criar About com uma foto minha, linkedin, github, email
 [x] Criar projetos
-[] Colocar certificados no about.tsx
+[x] Colocar certificados no about.tsx
 [x] Trocar ico
 [x] Bloquear o scroll na barra sidebar
 [x] Corrigir textos
