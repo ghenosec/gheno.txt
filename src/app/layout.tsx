@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GH.txt",
-  description: "Portfolio System for GH.txt",
+  title: "Gheno.txt",
+  description: "Portfolio System for Gheno.txt",
 };
 
 export default function RootLayout({
