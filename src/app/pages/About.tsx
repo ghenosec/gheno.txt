@@ -43,7 +43,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="p-8">
+    <div className="p-8" >
       <h1 className="text-3xl font-bold mb-6">Sobre Mim</h1>
       <div className="flex flex-col md:flex-row gap-6 items-start border rounded-lg shadow-md p-6 relative">
         <div className="flex-shrink-0 w-64">
