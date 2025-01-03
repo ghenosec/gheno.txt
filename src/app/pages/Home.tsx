@@ -34,7 +34,7 @@ const ResumePage: React.FC = () => {
         <code>
           {`Esse projeto está sendo desenvolvido para aprendizado.
 É possível encontrar erros, caso encontre, por favor, me avise.
-A ideia é testar novos conceitos, ideias e aprender, então não garanto um código perfeito.`}
+A ideia é testar novos conceitos, ideias e aprender, então não garanto um código perfeito. Mas estou em busca disso.`}
         </code>
       </pre>
 
@@ -77,7 +77,7 @@ A ideia é testar novos conceitos, ideias e aprender, então não garanto um có
 
       <h1 className="text-4xl font-bold mt-8 mb-4">Licença</h1>
       <p>
-        Este projeto está sob licença do MIT, fique à vontade para usá-lo como
+        Este projeto está sob licença MIT, fique à vontade para usá-lo como
         quiser.
       </p>
     </div>
