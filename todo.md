@@ -10,4 +10,8 @@ Modificações e criações
 [x] Corrigir textos
 [x] Mudar a paleta do verde
 [x] Removido Underline
+<<<<<<< HEAD
 [] Adicionar esmaecer para as outras páginas
+=======
+[] Adicionar esmaecer na sidebar
+>>>>>>> e15784495766133f15bc2f2fcca66b711e60652e
