@@ -1,6 +1,6 @@
 Modificações e ideias
 
--[x] Deixar onde está meu nome na aba esquerda mais para baixo
+- [x] Deixar onde está meu nome na aba esquerda mais para baixo
 - [x] Adicionar Logos
 - [x] Criar About com uma foto minha, linkedin, github, email
 - [x] Criar projetos
