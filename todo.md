@@ -11,3 +11,4 @@ Modificações e ideias
 - [x] Mudar a paleta do verde
 - [x] Removido Underline
 - [x] Adicionar esmaecer para as outras páginas
+- [ ] Adicionar redirect para o currículo na web
