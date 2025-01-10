@@ -17,7 +17,7 @@ const Start = () => {
     setIsFadingOut(true); 
     setTimeout(() => {
       router.push("/resume"); 
-    }, 1000); 
+    }, 600); 
   };
 
   if (showStartScreen) {
