@@ -11,7 +11,7 @@ Precisava de um site para ser meu currículo e portfólio, depois de observar v�
 ## Descrição
 
 - Esse projeto imita o start de um Sistema Operacional, aonde após "ligar", automaticamente abre um .txt que mostra algumas informaçõesque englobam a minha pessoa.
-- A parte inicial do projeto é com base em [Svelte](https://svelte.dev) mas, convertido para [TypeScript](https://www.typescriptlang.org/) pois é aonde tenho mais familiaridade.
+- A parte inicial do projeto é com base em [Svelte](https://svelte.dev), mas convertido para [TypeScript](https://www.typescriptlang.org/) pois é aonde tenho mais familiaridade.
 - A base do projeto é feita com [Next](https://nextjs.org/) o que me permite testar vários frameworks além de ter suporte nativo para TypeScript e futuras integrações simplificadas com APIs.
 
 ## Roteiro
