@@ -14,7 +14,7 @@ const ExperiencePage: React.FC = () => {
       end: "atual",
       jobTitle: "Desenvolvedor Front end, Tester e Co-Fundador",
       jobType: "Sob demanda",
-      jobLocation: "Cascavel/PR - Remote",
+      jobLocation: "Cascavel/PR - Remoto",
       companyDescription: `
         A Folhastech é uma Startup que eu e meus amigos fundamos em 2022.
         A empresa tem como objetivo desenvolver soluções de software e hardware
