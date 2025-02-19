@@ -13,7 +13,7 @@
 
 
 - Ideias
-  - [ ] Adicionar redirect para o currículo na web
+  - [x] Adicionar redirect para o currículo na web
   - [ ] Criar tema dark
   - [ ] Adicionar um "botão" de fechar o txt
   - [ ] Deixar a página como se fosse uma janela em txt
