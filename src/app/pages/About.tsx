@@ -83,6 +83,15 @@ const About = () => {
             </div>
 
             <div className="absolute top-0 right-0 flex gap-5 p-4">
+             <h2 className="text-green-500 text-lg font-semibold hover:text-green-800 transition-colors duration-300">
+             <a 
+                href="https://docs.google.com/document/d/1Y5NPQsPobCl_MWy7M_c2tzNPZRs6O0PF/edit?usp=sharing&ouid=113984803807960972628&rtpof=true&sd=true"
+                target="_blank"
+                className="bg-green-500 text-lg p-3 py-1 rounded-lg text-white hover:bg-green-700 transition-colors duration-300" 
+                >
+                  Currículo
+                </a>
+             </h2>
               <a
                 href="https://www.linkedin.com/in/lucascarmonagheno/"
                 target="_blank"
