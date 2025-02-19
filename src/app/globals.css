@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -18,7 +18,9 @@
 }
 
 body {
-  @apply bg-black text-white font-mono;
+  background-color: black;
+  color: white;
+  font-family: 'Fira Code', monospace;
   font-family: 'Fira Code', monospace;
 }
 
