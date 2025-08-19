@@ -9,6 +9,21 @@ const ProjectsPage: React.FC = () => {
 
   const projects = [
     {
+      title: "IZcode",
+      projectType: "Landin Page",
+      description: `
+        Landin-page da software house IZcode, que oferece serviços de desenvolvimento web.
+      `,
+      repositoryLink: "https://github.com/ghenosec/siteizcode",
+      technologies: [
+        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "Nextjs", link: "https://nextjs.org/" },
+        { name: "Typescript", link: "https://www.typescriptlang.org/" },
+        { name: "TailwindCSS", link: "https://tailwindcss.com/" },
+        { name: "Vercel", link: "https://vercel.com/" },
+      ],
+    },
+    {
       title: "GYM Strong",
       projectType: "Landin Page",
       description: `
@@ -25,7 +40,7 @@ const ProjectsPage: React.FC = () => {
     },
     {
       title: "Gheno.txt",
-      projectType: "Portfólio pessoal e currículo", 
+      projectType: "Portfólio Pessoal e Currículo",
       description: `
         Meu portfólio pessoal e currículo, inspirado em sistemas operacionais antigos.
         No projeto, é possível encontrar informações sobre mim, meus projetos e experiências. Nesse momento você está vizualizando o projeto.
@@ -42,17 +57,15 @@ const ProjectsPage: React.FC = () => {
     },
     {
       title: "Go Opportunities",
-      projectType: "API de oportunidades de emprego ",
+      projectType: "API de Oportunidades de Emprego ",
       description: `
         Uma API moderna de oportunidades de emprego construída usando Golang. A API é desenvolvida por Go-Gin como roteador,
-        GoORM para comunicação de banco de dados, SQLite como banco de dados e Swagger para documentação e teste de API. 
+        GoORM para comunicação de banco de dados, SQLite como banco de dados e Swagger para documentação e teste de API.
         O projeto segue uma estrutura de pacotes moderna para manter a base de código organizada e de fácil manutenção.
       `,
       repositoryLink: "https://github.com/ghenosec/gopportunities",
       technologies: [
         { name: "GoLang", link: "https://go.dev/" },
-        { name: "Go-Gin", link: "https://gin-gonic.com/" },
-        { name: "GoORM", link: "https://gorm.io/" },
         { name: "SQLite", link: "https://www.sqlite.org/index.html" },
         { name: "Swagger", link: "https://swagger.io/" },
         { name: "Docker", link: "https://docs.docker.com/" },
@@ -61,15 +74,41 @@ const ProjectsPage: React.FC = () => {
     },
     {
       title: "Data Structure GO",
-      projectType: "Documentação e exemplos da estrutura de dados e algoritmos em GO",
+      projectType:
+        "Documentação e Exemplos em GO",
       description: `
-        Esse projeto contém exemplos, explicações e documentos sobre a estrutura de dados e algoritmos em GoLang, 
-        deixando o estudo para o leitor mais abrangente e fácil. 
+        Esse projeto contém exemplos, explicações e documentos sobre a estrutura de dados e algoritmos em GoLang,
+        deixando o estudo para o leitor mais abrangente e fácil.
         O projeto consiste explicações escritas, imagens e exemplos em códigos.
       `,
       repositoryLink: "https://github.com/ghenosec/dataStructureGO",
+      technologies: [{ name: "GoLang", link: "https://go.dev/" }],
+    },
+    {
+      title: "Toca Secreta",
+      projectType: "Checkout de Vendas",
+      description: `
+        Checkout de vendas de uma loja de info produto, demonstrando mais detalhes e chamando a atenção do usuário.
+      `,
+      repositoryLink: "https://github.com/ghenosec/toca-secreta",
       technologies: [
-        { name: "GoLang", link: "https://go.dev/" },
+        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "Nextjs", link: "https://nextjs.org/" },
+        { name: "Typescript", link: "https://www.typescriptlang.org/" },
+        { name: "TailwindCSS", link: "https://tailwindcss.com/" },
+        { name: "Vercel", link: "https://vercel.com/" },
+      ],
+    },
+    {
+      title: "GhenoTweaks",
+      projectType: "Ferramenta para otimização do sistema OS Windows",
+      description: `
+        Uma ferramenta projetada para otimizar o desempenho e a eficiência do sistema operacional Windows.
+      `,
+      repositoryLink: "https://github.com/ghenosec/ghenotweaks",
+      technologies: [{ name: "Python", link: "https://www.python.org/" }],
+      version: [
+        { name: "Linux", link: "https://github.com/ghenosec/ghenotweaks-ubuntu" },
       ],
     },
   ];
@@ -101,6 +140,30 @@ const ProjectsPage: React.FC = () => {
             <h3 className="text-lg font-semibold">Descrição:</h3>
             <p>{project.description}</p>
           </section>
+
+          {/* AQUI: Renderização condicional da seção "Versão" */}
+          {project.version &&
+            Array.isArray(project.version) &&
+            project.version.length > 0 && (
+              <section>
+                <h3 className="text-lg font-semibold">Versão:</h3>
+                <ul className="list-disc ml-5">
+                  {project.version.map((outherVersion) => (
+                    <li key={outherVersion.name}>
+                      <a
+                        href={outherVersion.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-green-500 hover:text-green-700 transition-colors duration-300"
+                      >
+                        {outherVersion.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
           <section>
             <h3 className="text-lg font-semibold">Tecnologias Usadas:</h3>
             <ul className="list-disc ml-5">
