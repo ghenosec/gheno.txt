@@ -18,9 +18,9 @@ const ExperiencePage: React.FC = () => {
       companyDescription: `
         A Folhastech é uma Startup que eu e meus amigos fundamos em 2022.
         A empresa tem como objetivo desenvolver soluções de software e hardware
-        para o setor agrícola. O principal objetivo é ajudar os agricultores a 
+        para o setor do agro. O principal objetivo é ajudar os agricultores a
         aumentar sua produtividade e reduzir seus custos. A empresa ainda está
-        no estágio inicial, com produtos em desenvolvimento.
+        no estágio inicial, com produtos sendo desevolvidos e testes em andamento.
       `,
       roleDescription: `
         Como um dos confundadores da empresa, eu sou responsável por algumas
