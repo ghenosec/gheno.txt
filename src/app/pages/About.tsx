@@ -7,6 +7,7 @@ const skills = [
   "TailwindCSS",
   "Node.js",
   "Go",
+  "Python",
   "PostgreSQL",
   "MongoDB",
   "Docker",
@@ -70,12 +71,12 @@ const About = () => {
                 <span>Paraná, Brasil</span>
               </div>
               <p className="mt-6">
-                Sou um desenvolvedor de software e estou atualmente cursando
-                Engenharia de Software, com data de formação prevista para 2025.
+                Sou um desenvolvedor de software formado em Engenharia de Software,
+                pelo Centro Universitário Assis Gurgacz (FAG), 2022-2025.
                 Tenho contato e formações com Tecnologias desde meus 7 anos,
-                idade que tive meu primeiro computador, diante de 3 anos para cá,
-                venho me aprofundando em desenvolvimento de
-                software, durante esse período, tive a oportunidade de trabalhar em
+                idade que tive meu primeiro computador, diante de 5 anos para cá,
+                venho me aprofundando em desenvolvimento de software,
+                durante esse período, tive a oportunidade de trabalhar em
                 uma gama de projetos que me ajudaram a desenvolver e aprimorar
                 minhas habilidades e conhecimentos. Estou sempre em busca de novos
                 desafios e oportunidades para aprender e crescer profissionalmente.
