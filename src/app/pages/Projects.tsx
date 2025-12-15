@@ -9,6 +9,38 @@ const ProjectsPage: React.FC = () => {
 
   const projects = [
     {
+      title: "Todo List - PWA",
+      projectType: "Solução Web e Mobile",
+      description: `
+        Minha mãe precisava de uma aplicação simples para gerenciar suas tarefas diárias, então decidi criar um Todo list para atender a essa necessidada, assim aproveitando e aprendendo sobre Progressive Web Apps (PWA).
+      `,
+      repositoryLink: "https://github.com/ghenosec/todo-pwa",
+      technologies: [
+        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "Nextjs", link: "https://nextjs.org/" },
+        { name: "Typescript", link: "https://www.typescriptlang.org/" },
+        { name: "LocalStorage", link: "https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage" },
+        { name: "TailwindCSS", link: "https://tailwindcss.com/" },
+        { name: "Vercel", link: "https://vercel.com/" },
+        { name: "PWA", link: "https://web.dev/progressive-web-apps/" },
+      ],
+    },
+    {
+      title: "Coguemlo Filmes",
+      projectType: "Landin Page",
+      description: `
+        Landing Page para a Cogumelo Filmes, empresa de produção audiovisual especializada em filmes publicitários, produções independentes e pós-produção.
+      `,
+      repositoryLink: "https://github.com/ghenosec/cogumelo-filmes",
+      technologies: [
+        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "Nextjs", link: "https://nextjs.org/" },
+        { name: "Typescript", link: "https://www.typescriptlang.org/" },
+        { name: "TailwindCSS", link: "https://tailwindcss.com/" },
+        { name: "Vercel", link: "https://vercel.com/" },
+      ],
+    },
+    {
       title: "IZcode",
       projectType: "Landin Page",
       description: `
@@ -71,18 +103,6 @@ const ProjectsPage: React.FC = () => {
         { name: "Docker", link: "https://docs.docker.com/" },
         { name: "Docker Compose", link: "https://docs.docker.com/compose/" },
       ],
-    },
-    {
-      title: "Data Structure GO",
-      projectType:
-        "Documentação e Exemplos em GO",
-      description: `
-        Esse projeto contém exemplos, explicações e documentos sobre a estrutura de dados e algoritmos em GoLang,
-        deixando o estudo para o leitor mais abrangente e fácil.
-        O projeto consiste explicações escritas, imagens e exemplos em códigos.
-      `,
-      repositoryLink: "https://github.com/ghenosec/dataStructureGO",
-      technologies: [{ name: "GoLang", link: "https://go.dev/" }],
     },
     {
       title: "Toca Secreta",
