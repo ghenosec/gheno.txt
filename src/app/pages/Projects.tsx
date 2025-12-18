@@ -12,7 +12,7 @@ const ProjectsPage: React.FC = () => {
       title: "Todo List - PWA",
       projectType: "Solução Web e Mobile",
       description: `
-        Minha mãe precisava de uma aplicação simples para gerenciar suas tarefas diárias, então decidi criar um Todo list para atender a essa necessidada, assim aproveitando e aprendendo sobre Progressive Web Apps (PWA).
+        Minha mãe precisava de uma aplicação simples para gerenciar suas tarefas diárias, então decidi criar um Todo list para atender a essa necessidade, assim aproveitando e aprendendo sobre Progressive Web Apps (PWA).
       `,
       repositoryLink: "https://github.com/ghenosec/todo-pwa",
       technologies: [
@@ -26,7 +26,7 @@ const ProjectsPage: React.FC = () => {
       ],
     },
     {
-      title: "Coguemlo Filmes",
+      title: "Cogumelo Filmes",
       projectType: "Landin Page",
       description: `
         Landing Page para a Cogumelo Filmes, empresa de produção audiovisual especializada em filmes publicitários, produções independentes e pós-produção.
