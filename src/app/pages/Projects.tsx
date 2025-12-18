@@ -27,7 +27,7 @@ const ProjectsPage: React.FC = () => {
     },
     {
       title: "Cogumelo Filmes",
-      projectType: "Landin Page",
+      projectType: "Landing Page",
       description: `
         Landing Page para a Cogumelo Filmes, empresa de produção audiovisual especializada em filmes publicitários, produções independentes e pós-produção.
       `,
