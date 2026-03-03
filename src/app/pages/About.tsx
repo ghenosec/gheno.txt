@@ -1,3 +1,4 @@
+import { title } from "process";
 import React, { useState, useEffect } from "react";
 
 const skills = [
@@ -34,6 +35,15 @@ const certificates = [
     issuer: "Centro Universitário FAG",
     link: "https://drive.google.com/file/d/1hTc6-1uozZ5xfTJWoWWwW4HvsOWzaRJ_/view?usp=sharing",
   },
+  {
+    title: "Engenheiro de Software",
+    certificateType: "Engenharia de Software",
+    description:
+      "Certificado de conclusão do curso de Engenharia de Software, abrangendo conhecimentos e práticas essenciais para a construção de software de alta qualidade.",
+    date: "Dezembro 2025",
+    issuer: "Centro Universitário FAG",
+    link: "https://drive.google.com/file/d/1uyUXvV6rZQEUeA-7aacACHYeQjFxPy14/view?usp=sharing",
+  }
 ];
 
 const About = () => {
@@ -71,22 +81,18 @@ const About = () => {
                 <span>Paraná, Brasil</span>
               </div>
               <p className="mt-6">
-                Sou um desenvolvedor de software formado em Engenharia de Software,
-                pelo Centro Universitário Assis Gurgacz (FAG), 2022-2025.
-                Tenho contato e formações com Tecnologias desde meus 7 anos,
-                idade que tive meu primeiro computador, diante de 5 anos para cá,
-                venho me aprofundando em desenvolvimento de software,
-                durante esse período, tive a oportunidade de trabalhar em
-                uma gama de projetos que me ajudaram a desenvolver e aprimorar
-                minhas habilidades e conhecimentos. Estou sempre em busca de novos
-                desafios e oportunidades para aprender e crescer profissionalmente.
+                Sou desenvolvedor Full Stack formado em Engenharia de Software pelo,
+                Centro Universitário Assis Gurgacz (FAG), 2022-2025, com mais de 2 anos de experiência prática em desenvolvimento web.
+                Atuo principalmente com React, Next.js, JavaScript e TypeScript, desenvolvendo aplicações modernas, escaláveis e com foco em performance e experiência do usuário, mas sempre gosto de estudar demais linguagens.
+                Sou cofundador da startup agrotech Folhastech, onde participo do desenvolvimento do Hidros, um sistema de monitoramento em tempo real para estufas hidropônicas, já validado em testes e contemplado com editais de fomento.
+                Tenho perfil analítico, foco em resolução de problemas e estou sempre buscando evoluir tecnicamente e profissionalmente por meio de novos desafios.
               </p>
             </div>
 
             <div className="absolute top-0 right-0 flex gap-5 p-4">
              <h2 className="text-green-500 text-lg font-semibold hover:text-green-800 transition-colors duration-300">
              <a 
-                href="https://docs.google.com/document/d/1Y5NPQsPobCl_MWy7M_c2tzNPZRs6O0PF/edit?usp=sharing&ouid=113984803807960972628&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/1PihfxTqlXVxQRsOpw8wr0G3Uz4xx7z9v4U-wjMEeVzU/edit?usp=sharing"
                 target="_blank"
                 className="bg-green-500 text-lg p-3 py-1 rounded-lg text-white hover:bg-green-700 transition-colors duration-300" 
                 >
