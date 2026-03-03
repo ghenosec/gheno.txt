@@ -8,6 +8,27 @@ const ProjectsPage: React.FC = () => {
   }, []);
 
   const projects = [
+     {
+      title: "GestorTrip",
+      projectType: "Solução Executável para Desktop sem uso de Internet",
+      description: `
+        O GestorTrip é um software de gerenciamento de viagens desenvolvido através da demanda de uma cliente, ela tinha como objetivo sair do excel e desejava uma solução para atender às necessidades da sua agência de viagens. O aplicativo é uma solução abrangente para a gestão de viagens, oferecendo recursos como cadastro de clientes, controle financeiro e geração de relatórios. O software é projetado para ser fácil de usar, mesmo para aqueles sem experiência técnica, e é acessível offline, permitindo que os usuários acessem suas informações a qualquer momento, mesmo sem conexão com a internet.
+      `,
+      repositoryLink: "https://github.com/ghenosec/gestortrip",
+      technologies: [
+        { name: "React", link: "https://react.dev/" },
+        { name: "Nextjs", link: "https://nextjs.org/" },
+        { name: "Typescript", link: "https://www.typescriptlang.org/" },
+        { name: "TailwindCSS", link: "https://tailwindcss.com/" },
+        { name: "Radix UI", link: "https://www.radix-ui.com/" },
+        { name: "Zod", link: "https://zod.dev/" },
+        { name: "Recharts", link: "https://recharts.org/" },
+        { name: "React-hook-form", link: "https://react-hook-form.com/" },
+        { name: "Date-fns", link: "https://date-fns.org/" },
+        { name: "SQLite", link: "https://www.sqlite.org/index.html" },
+        { name: "Electronjs", link: "https://www.electronjs.org/" },
+      ],
+    },
     {
       title: "Todo List - PWA",
       projectType: "Solução Web e Mobile",
@@ -16,7 +37,7 @@ const ProjectsPage: React.FC = () => {
       `,
       repositoryLink: "https://github.com/ghenosec/todo-pwa",
       technologies: [
-        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "React", link: "https://react.dev/" },
         { name: "Nextjs", link: "https://nextjs.org/" },
         { name: "Typescript", link: "https://www.typescriptlang.org/" },
         { name: "LocalStorage", link: "https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage" },
@@ -33,7 +54,7 @@ const ProjectsPage: React.FC = () => {
       `,
       repositoryLink: "https://github.com/ghenosec/cogumelo-filmes",
       technologies: [
-        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "React", link: "https://react.dev/" },
         { name: "Nextjs", link: "https://nextjs.org/" },
         { name: "Typescript", link: "https://www.typescriptlang.org/" },
         { name: "TailwindCSS", link: "https://tailwindcss.com/" },
@@ -48,7 +69,7 @@ const ProjectsPage: React.FC = () => {
       `,
       repositoryLink: "https://github.com/ghenosec/siteizcode",
       technologies: [
-        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "React", link: "https://react.dev/" },
         { name: "Nextjs", link: "https://nextjs.org/" },
         { name: "Typescript", link: "https://www.typescriptlang.org/" },
         { name: "TailwindCSS", link: "https://tailwindcss.com/" },
@@ -63,7 +84,7 @@ const ProjectsPage: React.FC = () => {
       `,
       repositoryLink: "https://github.com/ghenosec/gym-page",
       technologies: [
-        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "React", link: "https://react.dev/" },
         { name: "Nextjs", link: "https://nextjs.org/" },
         { name: "Typescript", link: "https://www.typescriptlang.org/" },
         { name: "TailwindCSS", link: "https://tailwindcss.com/" },
@@ -79,7 +100,7 @@ const ProjectsPage: React.FC = () => {
       `,
       repositoryLink: "https://github.com/ghenosec/gheno.txt",
       technologies: [
-        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "React", link: "https://react.dev/" },
         { name: "Nextjs", link: "https://nextjs.org/" },
         { name: "Typescript", link: "https://www.typescriptlang.org/" },
         { name: "TailwindCSS", link: "https://tailwindcss.com/" },
@@ -112,7 +133,7 @@ const ProjectsPage: React.FC = () => {
       `,
       repositoryLink: "https://github.com/ghenosec/toca-secreta",
       technologies: [
-        { name: "Reactjs", link: "https://react.dev/" },
+        { name: "React", link: "https://react.dev/" },
         { name: "Nextjs", link: "https://nextjs.org/" },
         { name: "Typescript", link: "https://www.typescriptlang.org/" },
         { name: "TailwindCSS", link: "https://tailwindcss.com/" },
