@@ -22,13 +22,6 @@ const ResumePage: React.FC = () => {
         />
         <h1 className="text-5xl font-bold mt-4">Gheno.txt</h1>
       </div>
-      <h1 className="text-4xl font-bold mb-4">Propósito</h1>
-      <p>
-        Precisava de um site para ser meu currículo e portfólio, depois de
-        observar vários websites e portfólios, encontrei um seguindo o estilo
-        de sistemas operacionais antigos e gostei demais da ideia, me inspirei e acabei criando o meu. Ainda não está 100% como
-        eu gostaria, mas estou trabalhando nisso.
-      </p>
       <h1 className="text-4xl font-bold mt-8 mb-4">Aviso</h1>
       <pre className="bg-gray-200 p-4">
         <code>
