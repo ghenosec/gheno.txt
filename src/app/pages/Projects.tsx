@@ -30,6 +30,20 @@ const ProjectsPage: React.FC = () => {
       ],
     },
     {
+      title: "Landing Page - GestorTrip",
+      projectType: "Landing Page",
+      description: `
+        Landing Page do software GestorTrip, que é um software de gerenciamento de viagens desenvolvido para atender às necessidades de uma agência de viagens. A landing page tem como objetivo apresentar o software, suas funcionalidades e benefícios para potenciais clientes, incentivando-os a conhecer mais sobre o produto e a entrar em contato para adquirir ou solicitar uma demonstração.
+      `,
+      repositoryLink: "https://github.com/ghenosec/gestortrip-landing",
+      technologies: [
+        { name: "React", link: "https://react.dev/" },
+        { name: "Nextjs", link: "https://nextjs.org/" },
+        { name: "TailwindCSS", link: "https://tailwindcss.com/" },
+        { name: "Vercel", link: "https://vercel.com/" },
+      ],
+    },
+    {
       title: "Todo List - PWA",
       projectType: "Solução Web e Mobile",
       description: `
@@ -181,8 +195,6 @@ const ProjectsPage: React.FC = () => {
             <h3 className="text-lg font-semibold">Descrição:</h3>
             <p>{project.description}</p>
           </section>
-
-          {/* AQUI: Renderização condicional da seção "Versão" */}
           {project.version &&
             Array.isArray(project.version) &&
             project.version.length > 0 && (
