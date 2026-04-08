@@ -1,3 +1,4 @@
+import { title } from "process";
 import React, { useState, useEffect } from "react";
 
 const skills = [
@@ -16,6 +17,15 @@ const skills = [
 ];
 
 const certificates = [
+  {
+    title: "Engenheiro de Software",
+    certificateType: "Engenharia de Software",
+    description:
+      "Certificado de conclusão do curso de Engenharia de Software, abrangendo conhecimentos e práticas essenciais para a construção de software de alta qualidade.",
+    date: "Dezembro 2025",
+    issuer: "Centro Universitário FAG",
+    link: "https://drive.google.com/file/d/1KbCA6gvbh0xEAw2W4glnfMmR34_NbiYO/view?usp=sharing",
+  },
   {
     title: "Analista de Requisitos",
     certificateType: "Análise de requisitos de software",
