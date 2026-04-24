@@ -8,6 +8,50 @@ const ProjectsPage: React.FC = () => {
   }, []);
 
   const projects = [
+    {
+      title: "cvPERFEITO",
+      projectType: "SaaS Web com Inteligência Artificial para Análise e Otimização de Currículos",
+      description: `
+        O cvPERFEITO é uma plataforma web desenvolvida para auxiliar profissionais a criarem currículos mais estratégicos, modernos e otimizados para processos seletivos automatizados (ATS). O sistema utiliza inteligência artificial para analisar currículos enviados pelos usuários, identificar pontos de melhoria e sugerir otimizações relacionadas à estrutura, clareza, palavras-chave, organização e boas práticas do mercado.
+        A plataforma foi criada com foco em aumentar as chances dos candidatos em recrutamentos, oferecendo análises inteligentes, correções automáticas e sugestões profissionais personalizadas para diferentes áreas e níveis de experiência. Além disso, o sistema busca transformar currículos comuns em versões mais atrativas e compatíveis com os filtros utilizados por empresas e recrutadores.
+        O projeto conta com uma arquitetura moderna e escalável, utilizando tecnologias atuais no frontend e backend, proporcionando uma experiência rápida, responsiva e intuitiva para o usuário.
+      `,
+      repositoryLink: "https://github.com/ghenosec/cvPERFEITO",
+      technologies: [
+        { name: "Angular", link: "https://angular.dev/" },
+        { name: "NestJS", link: "https://nestjs.com/" },
+        { name: "Typescript", link: "https://www.typescriptlang.org/" },
+        { name: "TailwindCSS", link: "https://tailwindcss.com/" },
+        { name: "Prisma ORM", link: "https://www.prisma.io/" },
+        { name: "PostgreSQL", link: "https://www.postgresql.org/" },
+        { name: "Neon", link: "https://neon.tech/" },
+        { name: "OpenAI API", link: "https://platform.openai.com/" },
+        { name: "JWT", link: "https://jwt.io/" },
+        { name: "Zod", link: "https://zod.dev/" },
+        { name: "Render", link: "https://render.com/" },
+        { name: "Vercel", link: "https://vercel.com/" },
+      ],
+    },
+    {
+      title: "Landing Page cvPERFEITO",
+      projectType: "Landing Page Institucional para Plataforma SaaS com Inteligência Artificial",
+      description: `
+        A Landing Page do cvPERFEITO foi desenvolvida com foco em conversão, apresentação do produto e fortalecimento da identidade visual da plataforma. O objetivo principal é demonstrar de forma clara e moderna como a inteligência artificial do sistema auxilia usuários na criação de currículos mais profissionais, otimizados para ATS e alinhados às melhores práticas do mercado.
+        O projeto foi pensado para oferecer uma experiência visual moderna, responsiva e intuitiva, utilizando uma interface limpa e estratégica para destacar os benefícios da plataforma, funcionalidades principais, diferenciais competitivos e chamadas para ação. A página também possui foco em performance, SEO e adaptação para diferentes dispositivos, garantindo acessibilidade e carregamento rápido.
+        Além da apresentação institucional do SaaS, a landing page foi construída para maximizar conversões de usuários interessados, utilizando seções estratégicas como apresentação de funcionalidades, benefícios, planos, depoimentos e integração visual com a identidade do produto.
+      `,
+      repositoryLink: "https://github.com/ghenosec/cvperfeito-landing",
+      technologies: [
+        { name: "Next.js", link: "https://nextjs.org/" },
+        { name: "React", link: "https://react.dev/" },
+        { name: "Typescript", link: "https://www.typescriptlang.org/" },
+        { name: "TailwindCSS", link: "https://tailwindcss.com/" },
+        { name: "Framer Motion", link: "https://www.framer.com/motion/" },
+        { name: "Shadcn/UI", link: "https://ui.shadcn.com/" },
+        { name: "Lucide React", link: "https://lucide.dev/" },
+        { name: "Vercel", link: "https://vercel.com/" },
+      ],
+    },
      {
       title: "GestorTrip",
       projectType: "Solução Executável para Desktop sem uso de Internet",
