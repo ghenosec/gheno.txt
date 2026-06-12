@@ -7,8 +7,9 @@ const skills = [
   "Typescript",
   "TailwindCSS",
   "Node.js",
-  "Go",
-  "Python",
+  "Angular",
+  "NestJS",
+  "SQL",
   "PostgreSQL",
   "MongoDB",
   "Docker",
@@ -105,14 +106,14 @@ const About = () => {
           isFadingIn ? "opacity-100" : "opacity-0"
         } transition-opacity duration-1000`}
       >
-        <div className="flex flex-col md:flex-row gap-6 items-start border rounded-lg shadow-md p-6 relative">
-          <div className="flex-shrink-0 w-64">
-            <img
-              src="me.jpeg"
-              alt="Minha foto"
-              className="w-full rounded-lg"
-            />
-          </div>
+        <div className="flex flex-col md:flex-row gap-6 border rounded-lg shadow-md p-6">
+        <div className="w-64 min-h-[300px]">
+          <img
+            src="me.png"
+            alt="Minha foto"
+            className="w-full h-full object-cover rounded-lg"
+          />
+        </div>
 
           <div className="flex flex-col gap-4 flex-1">
             <div className="text-md leading-relaxed">
@@ -130,11 +131,11 @@ const About = () => {
               </div>
 
               <p className="mt-6">
-                Sou desenvolvedor Full Stack formado em Engenharia de Software pelo,
-                Centro Universitário Assis Gurgacz (FAG), 2022-2025, com mais de 3 anos de experiência prática em desenvolvimento web.
-                Atuo principalmente com React, Next.js, Node.js, JavaScript e TypeScript, mas já tive experiências com Java, Kotlin, GO, PostgreSQL, Python e MongoDB para desenvolvimento de aplicações modernas, escaláveis e com foco em performance e experiência do usuário, mas sempre gosto de estudar demais linguagens.
-                Sou cofundador da startup agrotech Folhastech, onde participo do desenvolvimento do Hidros, um sistema de monitoramento em tempo real para estufas hidropônicas, já validado em testes e contemplado com editais de fomento.
-                Tenho perfil analítico, foco em resolução de problemas e estou sempre buscando evoluir tecnicamente e profissionalmente por meio de novos desafios.
+                Engenheiro de Software com interesse em desenvolvimento de software, produtos digitais e inovação tecnológica.
+                Ao longo da minha trajetória participei do desenvolvimento de aplicações web, sistemas SaaS e projetos voltados ao agronegócio, atuando em diferentes etapas do ciclo de desenvolvimento.
+                Atualmente sou cofundador da Folhastech, startup de tecnologia para o agronegócio, onde participo da evolução de soluções de monitoramento inteligente para hidroponias. Minha atuação envolve testes, validação de funcionalidades, identificação e correção de problemas, documentação, melhoria contínua do produto e desenvolvimento de novas funcionalidades em colaboração com a equipe.
+                Também participei de hackathons, programas de inovação e iniciativas de empreendedorismo tecnológico, experiências que fortaleceram minhas habilidades em resolução de problemas, trabalho em equipe e desenvolvimento de produtos.
+                Tenho experiência com React, Next.js, Angular, Node.js, TypeScript e tecnologias modernas para desenvolvimento web.
               </p>
             </div>
 
