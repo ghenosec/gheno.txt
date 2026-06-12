@@ -9,10 +9,10 @@ const ExperiencePage: React.FC = () => {
 
   const experiences = [
     {
-      title: "Folhastech",
+      title: "Folhastech (Startup Própria) ",
       start: "2022-10",
-      end: "atual",
-      jobTitle: "Desenvolvedor Front end, Tester e Co-Fundador",
+      end: "Presente",
+      jobTitle: "Co-fundador e Desenvolvedor de Software",
       jobType: "Sob demanda",
       jobLocation: "Cascavel/PR - Remoto",
       companyDescription: `
@@ -23,27 +23,31 @@ const ExperiencePage: React.FC = () => {
         no estágio inicial, com produtos sendo desevolvidos e testes em andamento.
       `,
       roleDescription: `
-        Como um dos confundadores da empresa, eu sou responsável por algumas
-        tarefas de desenvolvimento de software, testes e criação de mídia.
-        Também sou responsável pela gestão da empresa e por tomadas de decisões
-        junto com meus amigos e co-fundadores.
+        Atuo no desenvolvimento e evolução de soluções digitais voltadas ao agronegócio,
+        participando da construção de interfaces web com React, Next.js, Angular e TypeScript. 
+        Sou responsável por testes, validação de funcionalidades e identificação de melhorias, contribuindo para a qualidade e usabilidade dos produtos. 
+        Também participo do levantamento de requisitos, análise de feedbacks de usuários e colaboração com equipes multidisciplinares no desenvolvimento da plataforma Hidros.
+        Além disso, participei de programas de inovação, hackathons, validações em campo e iniciativas de empreendedorismo tecnológico,
+        incluindo projetos reconhecidos em competições e programas de aceleração.
       `,
       technologies: [
-        { name: "Reactjs", link: "https://react.dev/" },
-        { name: "Nextjs", link: "https://nextjs.org/" },
+        { name: "React", link: "https://react.dev/" },
+        { name: "Next.js", link: "https://nextjs.org/" },
         { name: "Typescript", link: "https://www.typescriptlang.org/" },
+        { name: "Node.js", link: "https://nodejs.org/en" },
         { name: "Git", link: "https://git-scm.com/" },
-        { name: "Axios", link: "https://axios-http.com/docs/intro" },
+        { name: "GitHub", link: "https://github.com/" },
+        { name: "Postman", link: "https://www.postman.com/" },
+        { name: "Figma", link: "https://www.figma.com/" },
         { name: "TailwindCSS", link: "https://tailwindcss.com/" },
         { name: "Docker", link: "https://www.docker.com/" },
-        { name: "GO", link: "https://go.dev/" },
       ],
     },
     {
       title: "Unimble",
       start: "2023-05",
       end: "2023-11",
-      jobTitle: "Estagiário em Desenvolvimento de Produto",
+      jobTitle: "Estagiário em Suporte Técnico e Produto",
       jobType: "Estágio",
       jobLocation: "Cascavel/PR - Híbrido",
       companyDescription: `
@@ -52,8 +56,9 @@ const ExperiencePage: React.FC = () => {
         oferece acompanhamento de resultados, serviços de planejamento e melhoria contínua de processos.
       `,
       roleDescription: `
-        Como estagiário, eu desenvolvia produtos centrados no usuário, unindo design, prototipagem e documentação técnica. 
-        Prestava suporte técnicos aos usuários, realizava testes de usabilidade, preparava o ambiente e a garantia de qualidade. 
+        Responsável pela configuração de ambientes, fluxos e estruturas de dados em Coda.io, contribuindo para a otimização de processos internos de clientes. 
+        Atuei na implantação de sistemas, suporte técnico e atendimento aos usuários, garantindo a resolução de problemas e a adoção eficiente das soluções. 
+        Desenvolvi documentações e materiais de apoio para onboarding, além de participar do levantamento de requisitos e da proposição de melhorias com base no feedback dos usuários. 
       `,
       technologies: [
         { name: "Javascript", link: "https://www.javascript.com/" },
